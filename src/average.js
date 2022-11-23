@@ -29,7 +29,3 @@ const average = (array) => {
 };
   
 module.exports = average;
-
-// for (let index of array) {
- // if (typeof index !== 'number') {
-   // return undefined;
