@@ -24,9 +24,7 @@ const vqv = (nome, idade) => {
 Tenho ${idade} anos,
 trabalho na Trybe e mando muito em programação!
 #VQV!`;
-  // eslint-disable-next-line no-unused-expressions
-  } (!nome || !idade);
-    return undefined;
+  }
+  return undefined;
 };
-console.log(vqv('Tunico', 30));
 module.exports = vqv;
