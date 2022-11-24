@@ -44,17 +44,6 @@ const calculator = (number1, number2) => {
   return resultado;
 };
 
-// const arrayGenerator = (type, object) => {
-//   if (type === 'keys') { 
-//     return Object.keys(object); 
-//   }
-//   if (type === 'values') { 
-//     return Object.values(object); 
-//   }
-//   if (type === 'entries') { 
-//     return Object.entries(object); }
-// };
-
 const arrayGenerator = (type, object) => {
   switch (type) {
     case 'keys': return Object.keys(object);
